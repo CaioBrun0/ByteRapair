@@ -57,8 +57,8 @@
             </Text>
             <HBox layoutX="47.0" layoutY="268.0" prefHeight="34.0" prefWidth="220.0" spacing="10.0">
                <children>
-                  <Button mnemonicParsing="false" text="Atendente" />
-                  <Button mnemonicParsing="false" text="Técnico">
+                  <Button fx:id="atendente" mnemonicParsing="false" onAction="#atendenteAction" text="Atendente" />
+                  <Button fx:id="tecnico" mnemonicParsing="false" onAction="#tecnicoAction" text="Técnico">
                      <opaqueInsets>
                         <Insets />
                      </opaqueInsets>
@@ -66,7 +66,7 @@
                         <Insets />
                      </HBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" text="Gerente" />
+                  <Button fx:id="gerente" mnemonicParsing="false" onAction="#gerenteAction" text="Gerente" />
                </children>
             </HBox>
          </children>

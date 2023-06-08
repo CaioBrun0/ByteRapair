@@ -4,18 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ByteRapair2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Projeto na fase inicial, funcionando.">
+      <change afterPath="$PROJECT_DIR$/src/Controller/AtendenteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/AttendantDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/ClientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/InvoiceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/ManagerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/OSDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/StockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/DAOInter/TechnicianDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/ENUM/Payments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/ENUM/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Attendant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/OS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Entities/Technician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/atendente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +38,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/javafx-sdk-19.0.2.1/lib",
+    "last_opened_file_path": "C:/Users/kmbma/IdeaProjects/PBL23.1.1",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.45482388"
@@ -102,6 +115,18 @@
       <option name="presentableId" value="Default" />
       <updated>1686098988382</updated>
     </task>
+    <task id="LOCAL-00001" summary="Projeto na fase inicial, funcionando.">
+      <created>1686242826819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686242826819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Projeto na fase inicial, funcionando." />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto na fase inicial, funcionando." />
   </component>
 </project>
