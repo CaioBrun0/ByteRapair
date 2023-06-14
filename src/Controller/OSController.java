@@ -6,7 +6,6 @@ import java.util.ResourceBundle;
 
 import Model.ENUM.Status;
 import Model.Entities.OS;
-import com.sun.tools.javac.Main;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -16,7 +15,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-public class AtendenteController {
+public class OSController {
 
     @FXML
     private ResourceBundle resources;
@@ -25,29 +24,42 @@ public class AtendenteController {
     private URL location;
 
     @FXML
+    private Button btnAtualizarOS;
+
+    @FXML
+    private Button btnCancelarOS;
+
+    @FXML
+    private Button btnCriarOS;
+
+    @FXML
+    private Button btnProcurarOS;
+
+    @FXML
     private TableView<OS> listaOS;
-
-    @FXML
-    private Button btnCliente;
-
-    @FXML
-    private Button btnOS;
-
-    @FXML
-    void btnClienteAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnOSAction(ActionEvent event) {
-
-    }
-
     private ObservableList<OS> conteudoOS;
 
 
 
+    @FXML
+    void btnAtualizarOSAction(ActionEvent event) {
 
+    }
+
+    @FXML
+    void btnCancelarOSAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnCriarOSAction(ActionEvent event) {
+
+    }
+
+    @FXML
+    void btnProcurarOSAction(ActionEvent event) {
+
+    }
 
     @FXML
     void initialize() {
@@ -71,10 +83,10 @@ public class AtendenteController {
         this.listaOS.getColumns().addAll(descriçãoColun, CPFColun, OSidColun, horaInicioColun, statusColun, peçasColun);
         this.listaOS.setItems(conteudoOS);
 
-        assert listaOS != null : "fx:id=\"listaOS\" was not injected: check your FXML file 'atendente.fxml'.";
-
-
-
+        assert btnAtualizarOS != null : "fx:id=\"btnAtualizarOS\" was not injected: check your FXML file 'OS.fxml'.";
+        assert btnCancelarOS != null : "fx:id=\"btnCancelarOS\" was not injected: check your FXML file 'OS.fxml'.";
+        assert btnCriarOS != null : "fx:id=\"btnCriarOS\" was not injected: check your FXML file 'OS.fxml'.";
+        assert btnProcurarOS != null : "fx:id=\"btnProcurarOS\" was not injected: check your FXML file 'OS.fxml'.";
 
     }
 
