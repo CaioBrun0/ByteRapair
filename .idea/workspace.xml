@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Model completo.">
-      <change afterPath="$PROJECT_DIR$/src/Controller/CadastroClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CriarOSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/OSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Atendentee.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/CadastroCliente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Cliente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/CriarOS.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/OS.fxml" afterDir="false" />
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Cadastro cliente funcionando e colocando dentro do arquivo.">
+      <change afterPath="$PROJECT_DIR$/src/Controller/GerenteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/PecaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/TecnicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Gerente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Peca.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Tecnico.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AtendenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CriarOSController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/atendente.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CriarOS.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686406595977</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cadastro cliente funcionando e colocando dentro do arquivo.">
+      <created>1686717915605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686717915605</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projeto na fase inicial, funcionando." />
     <MESSAGE value="Importando as clases entidades, ENUM e DAOInter.&#10;Ainda sem conseguir fazer a troca de interfaces." />
     <MESSAGE value="Model completo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Model completo." />
+    <MESSAGE value="Cadastro cliente funcionando e colocando dentro do arquivo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cadastro cliente funcionando e colocando dentro do arquivo." />
   </component>
 </project>

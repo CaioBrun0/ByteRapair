@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
 
         FXMLLoader loader = new FXMLLoader();
-        URL xmlURL = getClass().getResource("View/CadastroCliente.fxml");
+        URL xmlURL = getClass().getResource("View/Peca.fxml");
         loader.setLocation(xmlURL);
 
         Parent parent = loader.load();
