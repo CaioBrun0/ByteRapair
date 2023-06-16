@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Cadastro cliente funcionando e colocando dentro do arquivo.">
-      <change afterPath="$PROJECT_DIR$/src/Controller/GerenteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PecaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TecnicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Gerente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Peca.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Tecnico.fxml" afterDir="false" />
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Cadastro OS e cadastro de novas peças feito com sucesso.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jar_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ServicoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Servico.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ByteRapair2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ByteRapair2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AtendenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CriarOSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/CriarOS.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +24,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="module-info" />
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -46,10 +45,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/kmbma/IdeaProjects/PBL23.1.1",
-    "project.structure.last.edited": "Modules",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/kmbma/IdeaProjects/ByteRapair",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.45482388"
   }
@@ -79,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ByteRapair2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="app.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="ByteRapair2" />
@@ -93,14 +104,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.app.Main" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.app.Main" />
         <item itemvalue="Application.app.Main" />
       </list>
     </recent_temporary>
@@ -142,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686717915605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cadastro OS e cadastro de novas peças feito com sucesso.">
+      <created>1686809292312</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686809292312</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -150,6 +167,7 @@
     <MESSAGE value="Importando as clases entidades, ENUM e DAOInter.&#10;Ainda sem conseguir fazer a troca de interfaces." />
     <MESSAGE value="Model completo." />
     <MESSAGE value="Cadastro cliente funcionando e colocando dentro do arquivo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cadastro cliente funcionando e colocando dentro do arquivo." />
+    <MESSAGE value="Cadastro OS e cadastro de novas peças feito com sucesso." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cadastro OS e cadastro de novas peças feito com sucesso." />
   </component>
 </project>

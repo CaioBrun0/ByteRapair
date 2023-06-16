@@ -1,26 +1,14 @@
 package Controller;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.lang.reflect.Type;
-import java.net.URL;
-import java.util.Date;
-import java.util.List;
-import java.util.ResourceBundle;
-
-import Model.ENUM.Status;
 import Model.Entities.OS;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
-import com.sun.tools.javac.Main;
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.cell.PropertyValueFactory;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 public class AtendenteController {
 

@@ -9,32 +9,36 @@ import java.net.URL;
 
 public class Main extends Application {
     private static Scene mainScene;
+    private static Scene atendenteScene;
+    public static Scene stage;
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        FXMLLoader loader = new FXMLLoader();
-        URL xmlURL = getClass().getResource("View/Peca.fxml");
-        loader.setLocation(xmlURL);
+        stage = primaryStage.getScene();
 
-        Parent parent = loader.load();
-
-        Scene scene = new Scene(parent);
-        primaryStage.setScene(scene);
+        FXMLLoader fxmlLoader = new FXMLLoader();
+        URL xmlURLMain = getClass().getResource("View/Peca.fxml");
+        fxmlLoader.setLocation(xmlURLMain);
+        Parent parentMain = fxmlLoader.load();
+        mainScene = new Scene(parentMain);
+        primaryStage.setScene(mainScene);
         primaryStage.show();
+
+        FXMLLoader atendenteLoader = new FXMLLoader();
+        URL xmlURLAtendente = getClass().getResource("View/Atendentee.fxml");
+        atendenteLoader.setLocation(xmlURLAtendente);
+        Parent parentAtendente = atendenteLoader.load();
+        atendenteScene = new Scene(parentAtendente);
+
 
     }
 
     public void trocarTela(String fxml) {
-        try {
-            // Carrega o arquivo FXML da próxima tela
-            Parent root = FXMLLoader.load(Main.class.getResource(fxml));
-            // Define o conteúdo da cena principal
-            mainScene.setRoot(root);
-        } catch (IOException e) {
-            e.printStackTrace();
+        switch (fxml){
+            case "btnAtendentePag":
+
         }
     }
-
     public static void main(String[] args) {
         launch(args);
     }
