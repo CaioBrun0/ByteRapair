@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="492.0" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller.GerarFaturaController">
+   <top>
+      <AnchorPane prefHeight="430.0" prefWidth="578.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="122.0" layoutY="129.0" prefHeight="67.0" prefWidth="247.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="txtCPFCliente" prefHeight="32.0" prefWidth="190.0" promptText="CPF" />
+                  <TextField fx:id="txtNomeCliente" prefHeight="32.0" prefWidth="190.0" promptText="Nome" />
+               </children>
+            </VBox>
+            <Label layoutX="68.0" layoutY="1.0" text="gerar fatura" textFill="#fcfcfc">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="47.0" />
+               </font>
+            </Label>
+            <Separator layoutX="-5.0" layoutY="48.0" prefHeight="7.0" prefWidth="492.0" />
+            <HBox layoutX="176.0" layoutY="305.0" prefHeight="37.0" prefWidth="138.0" />
+            <Button fx:id="btnVoltar" layoutX="11.0" layoutY="312.0" mnemonicParsing="false" onAction="#btnVoltarAction" text="Voltar" />
+            <Label fx:id="labelError" layoutX="230.0" layoutY="284.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="374.0" layoutY="129.0" text="*CPF do cliente" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="373.0" layoutY="170.0" text="*Nome do cliente" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label layoutX="95.0" layoutY="93.0" text="*Coloque o CPF e o nome do cliente para gerar a fatura" textFill="WHITE" />
+            <Button fx:id="btnGerarFatura" layoutX="189.0" layoutY="215.0" mnemonicParsing="false" onAction="#btnGerarFaturaAction" prefHeight="42.0" prefWidth="119.0" text="Gerar fatura" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

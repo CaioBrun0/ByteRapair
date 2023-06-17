@@ -22,12 +22,12 @@
    <children>
       <AnchorPane prefHeight="498.0" prefWidth="340.0" style="-fx-background-color: #0000FF;">
          <children>
-            <Label layoutX="50.0" layoutY="3.0" text="BYTE RAPAIR" textFill="WHITE">
+            <Label layoutX="86.0" layoutY="3.0" text="BYTE RAPAIR" textFill="WHITE">
                <font>
                   <Font name="Copperplate Gothic Bold" size="28.0" />
                </font>
             </Label>
-            <Separator layoutX="56.0" layoutY="32.0" prefWidth="200.0" />
+            <Separator layoutX="96.0" layoutY="32.0" prefWidth="200.0" />
             <Label layoutX="70.0" layoutY="64.0" text="ATENDENTE" textFill="WHITE">
                <font>
                   <Font name="Copperplate Gothic Bold" size="23.0" />
@@ -41,6 +41,7 @@
                   <Button fx:id="btnProcurarOS" mnemonicParsing="false" onAction="#btnProcurarOSAction" prefHeight="44.0" prefWidth="161.0" text="Procurar OS" />
                </children>
             </VBox>
+            <Button fx:id="btnVoltar" layoutX="8.0" layoutY="7.0" minWidth="47.0" mnemonicParsing="false" onAction="#btnVoltarAction" prefHeight="34.0" prefWidth="54.0" text="Voltar" />
          </children>
       </AnchorPane>
       <TableView fx:id="listaOS" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" />

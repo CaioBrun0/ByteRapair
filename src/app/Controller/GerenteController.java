@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import app.Main;
+import app.Model.DAOImp.ManagerDAOImp;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -38,22 +39,26 @@ public class GerenteController {
 
     @FXML
     void btnAdicionarPecaAction(ActionEvent event) {
-
+        Main main = new Main();
+        main.trocarTela("adicionarPeca");
     }
 
     @FXML
     void btnAdicionarServicoAction(ActionEvent event) {
-
+        Main main = new Main();
+        main.trocarTela("adicionarServico");
     }
 
     @FXML
     void btnListaClientesAction(ActionEvent event) {
-
+        ManagerDAOImp listClientes = new ManagerDAOImp();
+        listClientes.viewCLients();
     }
 
     @FXML
     void btnListaFaturasAction(ActionEvent event) {
-
+        ManagerDAOImp listFaturas = new ManagerDAOImp();
+        listFaturas.viewCLients();
     }
 
     @FXML

@@ -3,6 +3,7 @@ package app.Model.DAOImp;
 import app.Model.DAOInter.TechnicianDAO;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import com.sun.media.jfxmediaimpl.HostUtils;
 
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -44,6 +45,7 @@ public class TechnicianDAOImp implements TechnicianDAO {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            System.out.println("Fatura criada!");
 
         } else if (value == 0 || value < 0) {
             System.out.println("OS não encontrada!");

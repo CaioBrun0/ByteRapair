@@ -76,6 +76,7 @@ public class ClientDAOImp implements ClientDAO{
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Dados atualizado com sucesso!");
 
 
     }
@@ -114,6 +115,7 @@ public class ClientDAOImp implements ClientDAO{
             // Imprimindo a pilha de rastreamento da exceção
             e.printStackTrace();
         }
+        System.out.println("Cliente excluido com sucesso!");
     }
 
     public void viewClient(String CPF){
@@ -179,12 +181,10 @@ public class ClientDAOImp implements ClientDAO{
 
 
                 jsonElement.getAsJsonObject().getAsJsonArray("clientsList").add(newClient);
-                System.out.println("Entrou 5");
 
                 // Escrevendo o JSON modificado no arquivo
                 FileWriter writer = new FileWriter("Clientes.json");
                 gson.toJson(jsonElement, writer);
-                System.out.println("Entrou 6");
                 writer.flush();
                 writer.close();
 
@@ -209,7 +209,7 @@ public class ClientDAOImp implements ClientDAO{
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
+        System.out.println("Novo cliente criado!");
 
     }
 

@@ -3,6 +3,7 @@ package app.Controller;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import app.Main;
 import app.Model.DAOImp.ManagerDAOImp;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,6 +21,10 @@ public class PecaController {
 
     @FXML
     private Button btnAdicionarPeca;
+
+    @FXML
+    private Button btnVoltar;
+
 
     @FXML
     private MenuItem btnFontePeca;
@@ -44,6 +49,13 @@ public class PecaController {
 
     @FXML
     private TextField txtQuantidadePeca;
+
+    @FXML
+    void btnVoltarAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("gerente");
+
+    }
 
 
     @FXML

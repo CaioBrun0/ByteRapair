@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="348.0" prefWidth="492.0" style="-fx-background-color: #0000FF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller.ReceberPagamentoController">
+   <top>
+      <AnchorPane prefHeight="430.0" prefWidth="578.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="47.0" layoutY="11.0" text="RECEBER PAGAMENTO" textFill="#fcfcfc">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="31.0" />
+               </font>
+            </Label>
+            <Separator layoutX="-5.0" layoutY="48.0" prefHeight="7.0" prefWidth="492.0" />
+            <HBox layoutX="176.0" layoutY="305.0" prefHeight="37.0" prefWidth="138.0" />
+            <Button fx:id="btnVoltar" layoutX="11.0" layoutY="312.0" mnemonicParsing="false" onAction="#btnVoltarAction" text="Voltar" />
+            <Label fx:id="labelError" layoutX="230.0" layoutY="284.0" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="343.0" layoutY="145.0" text="*CPF do cliente" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="132.0" layoutY="93.0" text="*Informe o CPF do cliente e escolha o tipo" textFill="WHITE" />
+            <TextField fx:id="txtCPFCliente" layoutX="147.0" layoutY="138.0" prefHeight="32.0" prefWidth="190.0" promptText="CPF" />
+            <MenuButton layoutX="191.0" layoutY="198.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="98.0" text="Menu">
+              <items>
+                <MenuItem fx:id="btnCCredito" mnemonicParsing="false" onAction="#btnCCreditoAction" text="Cartão de credito" />
+                <MenuItem fx:id="btnCDebito" mnemonicParsing="false" onAction="#btnCDebitoAction" text="Cartão de debito" />
+                  <MenuItem fx:id="btnPIX" mnemonicParsing="false" onAction="#btnPIXAction" text="PIX" />
+                  <MenuItem fx:id="btnCash" mnemonicParsing="false" onAction="#btnCashAction" text="Cash" />
+              </items>
+            </MenuButton>
+            <Label layoutX="250.0" layoutY="93.0" textFill="WHITE" />
+            <Label layoutX="180.0" layoutY="108.0" text="de pagamento no menu" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

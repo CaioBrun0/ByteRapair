@@ -4,6 +4,7 @@ import java.net.URL;
 import java.util.Date;
 import java.util.ResourceBundle;
 
+import app.Main;
 import app.Model.ENUM.Status;
 import app.Model.Entities.OS;
 import javafx.collections.FXCollections;
@@ -38,9 +39,16 @@ public class OSController {
     @FXML
     private TableView<OS> listaOS;
     private ObservableList<OS> conteudoOS;
+    @FXML
+    private Button btnVoltar;
 
 
+    @FXML
+    void btnVoltarAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("main");
 
+    }
     @FXML
     void btnAtualizarOSAction(ActionEvent event) {
 
@@ -48,17 +56,21 @@ public class OSController {
 
     @FXML
     void btnCancelarOSAction(ActionEvent event) {
-
+        Main main = new Main();
+        main.trocarTela("cancelarOS");
     }
 
     @FXML
     void btnCriarOSAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("criarOS");
 
     }
 
     @FXML
     void btnProcurarOSAction(ActionEvent event) {
-
+        Main main = new Main();
+        main.trocarTela("procurarOS");
     }
 
     @FXML

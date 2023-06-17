@@ -44,6 +44,8 @@ public class AtendenteController {
 
     @FXML
     void btnOSAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("OS");
 
     }
 

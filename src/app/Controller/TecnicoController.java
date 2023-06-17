@@ -37,13 +37,15 @@ public class TecnicoController {
 
     @FXML
     void btnFinalizarPedidoAction(ActionEvent event) {
-        TechnicianDAOImp tecnico = new TechnicianDAOImp();
-        tecnico.takeService();
+        Main main = new Main();
+        main.trocarTela("gerarFatura");
+
     }
 
     @FXML
     void btnPegarPedidoAction(ActionEvent event) {
-
+        TechnicianDAOImp tecnico = new TechnicianDAOImp();
+        tecnico.takeService();
     }
 
     @FXML

@@ -6,6 +6,7 @@ public class Client extends Person implements Serializable {
     public static ArrayList<OS> listOS = new ArrayList<>();
     private static final long serialVersionUID = 1L;
 
+
     /**
      *
      * @param CPF

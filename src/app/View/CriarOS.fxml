@@ -4,6 +4,8 @@
 <?import javafx.scene.control.DialogPane?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
@@ -21,11 +23,23 @@
             </Label>
             <Separator layoutX="-10.0" layoutY="40.0" prefHeight="2.0" prefWidth="498.0" />
             <TextArea fx:id="txtDescrição" layoutX="247.0" layoutY="73.0" prefHeight="85.0" prefWidth="218.0" promptText="Descrição" />
-            <Button fx:id="btnCriarOS" layoutX="171.0" layoutY="261.0" mnemonicParsing="false" onAction="#btnCriarOSAction" prefHeight="35.0" prefWidth="138.0" text="Criar" />
+            <Button fx:id="btnCriarOS" layoutX="171.0" layoutY="255.0" mnemonicParsing="false" onAction="#btnCriarOSAction" prefHeight="35.0" prefWidth="138.0" text="Criar" />
             <TextField fx:id="txtCPF" layoutX="14.0" layoutY="73.0" prefHeight="32.0" prefWidth="218.0" promptText="CPF" />
-            <TextField fx:id="txtPeca" layoutX="14.0" layoutY="112.0" prefHeight="31.0" prefWidth="218.0" promptText="peça" />
-            <ListView fx:id="listaPecas" layoutX="247.0" layoutY="163.0" prefHeight="63.0" prefWidth="218.0" />
-            <Button fx:id="btnAdicionarPeca" layoutX="51.0" layoutY="153.0" mnemonicParsing="false" onAction="#btnAdicionarPecaAction" prefHeight="35.0" prefWidth="138.0" text="Adicionar peça" />
+            <ListView fx:id="listaPecas" layoutX="247.0" layoutY="181.0" prefHeight="63.0" prefWidth="218.0" />
+            <Button fx:id="btnVoltar" layoutX="8.0" layoutY="270.0" mnemonicParsing="false" onAction="#btnVoltarAction" text="Voltar" />
+            <MenuButton fx:id="menuBotao" layoutX="70.0" layoutY="116.0" mnemonicParsing="false" onAction="#menuBotaoAction" prefHeight="38.0" prefWidth="106.0" text="MenuButton">
+              <items>
+                  <MenuItem fx:id="btnFonte" mnemonicParsing="false" onAction="#btnFonteAction" text="Fonte" />
+                <MenuItem fx:id="btnRAM" mnemonicParsing="false" onAction="#btnRAMAcntion" text="RAM" />
+                <MenuItem fx:id="btnPlacaMae" mnemonicParsing="false" onAction="#btnPlacaMaeAction" text="Placa mae" />
+                  <MenuItem fx:id="btnPlacaVideo" mnemonicParsing="false" onAction="#btnPlacaVideoAction" text="Placa de video" />
+                  <MenuItem fx:id="btnHDSSD" mnemonicParsing="false" onAction="#btnHDSSDAction" text="HD/SSD" />
+                  <MenuItem fx:id="btnInstalarOS" mnemonicParsing="false" onAction="#btnInstalarOSAction" text="Instalacao de OS" />
+                  <MenuItem fx:id="btnLimpeza" mnemonicParsing="false" onAction="#btnLimpezaAction" text="Limpeza" />
+                  <MenuItem fx:id="btnProgramas" mnemonicParsing="false" onAction="#btnProgramasAction" text="Programas" />
+              </items>
+            </MenuButton>
+            <Label layoutX="278.0" layoutY="164.0" text="*Lista de peças e/ou serviços." textFill="WHITE" />
          </children></AnchorPane>
     </header>
     <content>

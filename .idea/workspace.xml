@@ -4,55 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Criação do arquivo fxml e classe de serviços.">
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Trocas de interface funcionando bem até cadastro de cliente.">
+      <change afterPath="$PROJECT_DIR$/Invoice.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Serviços.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/AtualizarClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/AtualizarOSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/CancelarOSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/DeletarClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/GerarFaturaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/ProcurarClienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/ProcurarOSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Controller/ReceberPagamentoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/AtualizarCliente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/AtualizarOS.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/CancelarOS.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/DeletarCliente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/GerarFatura.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/ProcurarCliente.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/ProcurarOS.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/View/ReceberPagamento.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ByteRapair2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ByteRapair2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CadastroClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GerenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/OSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/OSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/PecaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/PecaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ServicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/TecnicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/AttendantDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/AttendantDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/ClientDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/InvoiceDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/InvoiceDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/ManagerDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ManagerDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/OSDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/StockDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/StockDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/TechnicianDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/AttendantDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/AttendantDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/ClientDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/InvoiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/InvoiceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/ManagerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/ManagerDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/OSDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/OSDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/StockDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/StockDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/TechnicianDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/TechnicianDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ENUM/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/ENUM/Payments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ENUM/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/ENUM/Status.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Attendant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Attendant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/OS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Technician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Technician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Stock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Atendentee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Atendentee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CadastroCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Cliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Cliente.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Gerente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Gerente.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/OS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/OS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Peca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Peca.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Servico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Servico.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Tecnico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/OSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/OSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/PecaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/PecaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/OS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/OS.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/Peca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Peca.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/Servico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Servico.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +54,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="module-info" />
         <option value="FxmlFile" />
         <option value="Class" />
-        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -90,7 +81,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/jar_files/gson-2.8.2.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kmbma/IdeaProjects/ByteRapair2&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.45482388&quot;
@@ -98,6 +89,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kmbma\IdeaProjects\ByteRapair2" />
+      <recent name="C:\Users\kmbma\IdeaProjects\ByteRapair2\src" />
       <recent name="C:\Users\kmbma\IdeaProjects\ByteRapair2\src\View" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -205,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686881409567</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trocas de interface funcionando bem até cadastro de cliente.">
+      <created>1686977041073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686977041073</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -215,6 +215,7 @@
     <MESSAGE value="Cadastro cliente funcionando e colocando dentro do arquivo." />
     <MESSAGE value="Cadastro OS e cadastro de novas peças feito com sucesso." />
     <MESSAGE value="Criação do arquivo fxml e classe de serviços." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação do arquivo fxml e classe de serviços." />
+    <MESSAGE value="Trocas de interface funcionando bem até cadastro de cliente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Trocas de interface funcionando bem até cadastro de cliente." />
   </component>
 </project>

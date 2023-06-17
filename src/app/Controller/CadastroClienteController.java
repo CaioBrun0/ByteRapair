@@ -56,8 +56,8 @@ public class CadastroClienteController {
 
     public void cadastrarCliente(){
 
-        AttendantDAOImp attendant = new AttendantDAOImp();
-        attendant.callCClient(this.txtCPFCliente.getText(), this.txtNomeCliente.getText(), this.txtTelefoneCliente.getText(), this.txtEmailCliente.getText(), this.txtCepCliente.getText());
+        AttendantDAOImp novoCliente = new AttendantDAOImp();
+        novoCliente.callCClient(this.txtCPFCliente.getText(), this.txtNomeCliente.getText(), this.txtTelefoneCliente.getText(), this.txtEmailCliente.getText(), this.txtCepCliente.getText());
 
 
         this.txtCPFCliente.clear();

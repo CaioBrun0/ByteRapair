@@ -1,11 +1,17 @@
 package app.Controller;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 import app.Main;
 import app.Model.ENUM.Status;
 import app.Model.Entities.Client;
+import com.google.gson.Gson;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -51,6 +57,8 @@ public class ClienteController {
 
     @FXML
     void btnAtualizarClienteAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("atualizarCliente");
 
     }
 
@@ -63,16 +71,39 @@ public class ClienteController {
 
     @FXML
     void btnDeletarClienteAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("deletarCliente");
 
     }
 
     @FXML
     void btnProcurarClienteAction(ActionEvent event) {
-
+        Main main = new Main();
+        main.trocarTela("procurarCliente");
     }
 
     @FXML
     void btnReceberPagamentoAction(ActionEvent event) {
+        Main main = new Main();
+        main.trocarTela("receberPagamento");
+
+    }
+    public void atalizarDados(){
+        Gson gson = new Gson();
+        List<Client> lista = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader("Clientes.json"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                Client obj = gson.fromJson(line, Client.class);
+                lista.add(obj);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        listaClientes.setItems(FXCollections.observableArrayList(lista));
+
+
+        //conteudoClientes.setItems(FXCollections.observableArrayList(lista));
 
     }
 
@@ -95,6 +126,9 @@ public class ClienteController {
 
         this.listaClientes.getColumns().addAll(nomeColun, CPFColun, contatoColun, emailColun, endereçoColun);
         this.listaClientes.setItems(conteudoClientes);
+
+        //atalizarDados();
+
 
 
         assert btnAtualizarCliente != null : "fx:id=\"btnAtualizarCliente\" was not injected: check your FXML file 'Cliente.fxml'.";

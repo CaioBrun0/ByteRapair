@@ -31,7 +31,7 @@
             <VBox alignment="CENTER" layoutX="9.0" layoutY="167.0" prefHeight="213.0" prefWidth="282.0" spacing="20.0">
                <children>
                   <Button fx:id="btnPegarPedido" mnemonicParsing="false" onAction="#btnPegarPedidoAction" prefHeight="66.0" prefWidth="206.0" text="Pegar pedido" />
-                  <Button fx:id="btnFinalizarPedido" mnemonicParsing="false" onAction="#btnFinalizarPedidoAction" prefHeight="66.0" prefWidth="206.0" text="Finalizar pedido" />
+                  <Button fx:id="btnFinalizarPedido" mnemonicParsing="false" onAction="#btnFinalizarPedidoAction" prefHeight="66.0" prefWidth="206.0" text="Gerar fatura" />
                </children>
             </VBox>
             <Label layoutX="90.0" layoutY="126.0" text="TÉCNICO" textFill="WHITE">

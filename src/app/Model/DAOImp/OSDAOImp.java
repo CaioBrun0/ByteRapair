@@ -60,6 +60,8 @@ public class OSDAOImp implements OSDAO {
             e.printStackTrace();
         }
 
+        System.out.printf("Pedido cancelado!");
+
     }
 
     public void viewOS(String CPF){
@@ -137,17 +139,14 @@ public class OSDAOImp implements OSDAO {
                 newOS.addProperty("startTime", os.getStarTime());
                 newOS.addProperty("status", String.valueOf(os.getStatus()));
                 JsonArray parts = new JsonArray();
-                System.out.println("entrou aqui 0");
                 for(int i = 0; i < usedParts.size(); i++) {
                     System.out.println(usedParts.get(i));
                 }
 
                 for(int i = 0; i < usedParts.size(); i++){
                     parts.add(String.valueOf(usedParts.get(i)));
-                    System.out.println("Entrou aqui");
                 }
                 newOS.addProperty("parts", String.valueOf(parts));
-                System.out.println("Entrou aqui 2");
 
 
 
@@ -212,7 +211,7 @@ public class OSDAOImp implements OSDAO {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        System.out.println("Foi pego o serviço mais antigo na lista de espera!");
 
     }
 
