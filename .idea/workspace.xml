@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Trocas de interface funcionando bem até cadastro de cliente.">
-      <change afterPath="$PROJECT_DIR$/Invoice.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Serviços.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/AtualizarClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/AtualizarOSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/CancelarOSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/DeletarClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/GerarFaturaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/ProcurarClienteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/ProcurarOSController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/Controller/ReceberPagamentoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/AtualizarCliente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/AtualizarOS.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/CancelarOS.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/DeletarCliente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/GerarFatura.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/ProcurarCliente.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/ProcurarOS.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/View/ReceberPagamento.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/OSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/OSController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/PecaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/PecaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/OS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/OS.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/Peca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Peca.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/Servico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Servico.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Versão 1.0 do programa terminando." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -205,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686977041073</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Versão 1.0 do programa terminando.">
+      <created>1687037715208</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687037715208</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -216,6 +183,7 @@
     <MESSAGE value="Cadastro OS e cadastro de novas peças feito com sucesso." />
     <MESSAGE value="Criação do arquivo fxml e classe de serviços." />
     <MESSAGE value="Trocas de interface funcionando bem até cadastro de cliente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trocas de interface funcionando bem até cadastro de cliente." />
+    <MESSAGE value="Versão 1.0 do programa terminando." />
+    <option name="LAST_COMMIT_MESSAGE" value="Versão 1.0 do programa terminando." />
   </component>
 </project>

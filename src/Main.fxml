@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="520.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller.MainController">
+   <children>
+      <ImageView disable="true" fitHeight="426.0" fitWidth="540.0" layoutY="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <image>
+            <Image url="@../../../Downloads/istockphoto-1387945043-170667a.jpg" />
+         </image>
+         <effect>
+            <Glow>
+               <input>
+                  <GaussianBlur />
+               </input>
+            </Glow>
+         </effect>
+      </ImageView>
+      <AnchorPane layoutX="117.0" layoutY="55.0" prefHeight="332.0" prefWidth="308.0" style="-fx-background-color: #0000FF;" AnchorPane.bottomAnchor="39.39999999999998">
+         <effect>
+            <InnerShadow height="65.11250000000001" radius="31.613125000000004" width="63.34">
+               <color>
+                  <Color opacity="0.8362613916397095" />
+               </color>
+            </InnerShadow>
+         </effect>
+         <children>
+            <ImageView fitHeight="151.0" fitWidth="151.0" layoutX="82.0" layoutY="73.0">
+               <image>
+                  <Image url="@../../../Downloads/74577.png" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="1.0" />
+               </effect>
+            </ImageView>
+            <Text fill="WHITE" layoutX="64.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BEM VINDO(A)!">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="29.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="121.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="eu sou:">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Text>
+            <HBox layoutX="47.0" layoutY="268.0" prefHeight="34.0" prefWidth="220.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Atendente" />
+                  <Button mnemonicParsing="false" text="Técnico">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Gerente" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <Text fill="WHITE" layoutX="11.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BYTE REPAIR">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
