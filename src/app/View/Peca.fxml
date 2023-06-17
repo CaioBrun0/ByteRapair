@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controller.PecaController">
+   <header>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="304.0" prefWidth="480.0" style="-fx-background-color: #0000FF;">
+         <children>
+            <Label layoutX="138.0" layoutY="9.0" text="adicionar peça" textFill="WHITE">
+               <font>
+                  <Font name="Copperplate Gothic Bold" size="24.0" />
+               </font>
+            </Label>
+            <Separator layoutX="-10.0" layoutY="40.0" prefHeight="2.0" prefWidth="498.0" />
+            <MenuButton alignment="CENTER" layoutX="185.0" layoutY="224.0" mnemonicParsing="false" popupSide="TOP" prefHeight="34.0" prefWidth="109.0" text="Peça">
+              <items>
+                <MenuItem fx:id="btnRamPeca" mnemonicParsing="false" onAction="#btnRamPecaAction" text="RAM" />
+                <MenuItem fx:id="btnPlacaMaePeca" mnemonicParsing="false" onAction="#btnPlacaMaePecaAction" text="Placa mae" />
+                  <MenuItem fx:id="btnFontePeca" mnemonicParsing="false" onAction="#btnFontePecaAction" text="Fonte" />
+                  <MenuItem fx:id="btnPlacaVideoPeca" mnemonicParsing="false" onAction="#btnPlacaVideoPecaAction" text="Placa de video" />
+                  <MenuItem fx:id="btnHSPeca" mnemonicParsing="false" onAction="#btnHSPecaAction" text="HD/SSD" />
+              </items>
+            </MenuButton>
+            <VBox layoutX="186.0" layoutY="103.0" prefHeight="114.0" prefWidth="109.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="txtCodigoPeca" prefHeight="30.0" prefWidth="105.0" promptText="Codígo" />
+                  <TextField fx:id="txtPrecoPeca" prefHeight="30.0" prefWidth="105.0" promptText="Preço" />
+                  <TextField fx:id="txtQuantidadePeca" prefHeight="30.0" prefWidth="105.0" promptText="Quantidade" />
+               </children>
+            </VBox>
+            <Label layoutX="40.0" layoutY="55.0" text="Primeiro preencha os dados do produto e depois escolha o produto na lista" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </header>
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+   </content>
+   <expandableContent>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0" />
+   </expandableContent>
+</DialogPane>

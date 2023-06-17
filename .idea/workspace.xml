@@ -4,17 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Cadastro OS e cadastro de novas peças feito com sucesso.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/controlsfx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jar_files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ServicoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Servico.fxml" afterDir="false" />
+    <list default="true" id="25d73da3-1337-4c78-8b32-f11da72abffd" name="Changes" comment="Criação do arquivo fxml e classe de serviços.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ByteRapair2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ByteRapair2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AtendenteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AtendenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/AtendenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CadastroClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CadastroClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ClienteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CriarOSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/CriarOSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GerenteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/GerenteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/OSController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/OSController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/PecaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/PecaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ServicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/ServicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/TecnicoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Controller/TecnicoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/AttendantDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/AttendantDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/ClientDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ClientDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/InvoiceDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/InvoiceDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/ManagerDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/ManagerDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/OSDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/OSDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/StockDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/StockDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOImp/TechnicianDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOImp/TechnicianDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/AttendantDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/AttendantDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/ClientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/ClientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/InvoiceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/InvoiceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/ManagerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/ManagerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/OSDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/OSDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/StockDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/StockDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/DAOInter/TechnicianDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/DAOInter/TechnicianDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ENUM/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/ENUM/Payments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ENUM/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/ENUM/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Attendant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Attendant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/OS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/OS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Entities/Technician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Entities/Technician.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Model/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Atendentee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Atendentee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/CadastroCliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CadastroCliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Cliente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Cliente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/CriarOS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/CriarOS.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Gerente.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Gerente.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/OS.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/OS.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Peca.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Peca.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Servico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Servico.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Tecnico.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/View/Tecnico.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +81,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/kmbma/IdeaProjects/ByteRapair",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.45482388"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/jar_files/gson-2.8.2.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.45482388&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kmbma\IdeaProjects\ByteRapair2\src\View" />
@@ -76,7 +114,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="ByteRapair2" />
       <option name="VM_PARAMETERS" value="--module-path &quot;C:\javafx-sdk-19.0.2.1\lib&quot;  --add-modules javafx.controls,javafx.fxml " />
       <method v="2">
@@ -84,7 +122,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="ByteRapair2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,6 +142,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.app.Main" />
       <item itemvalue="Application.Main" />
     </list>
@@ -159,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686809292312</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criação do arquivo fxml e classe de serviços.">
+      <created>1686881409567</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686881409567</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +214,7 @@
     <MESSAGE value="Model completo." />
     <MESSAGE value="Cadastro cliente funcionando e colocando dentro do arquivo." />
     <MESSAGE value="Cadastro OS e cadastro de novas peças feito com sucesso." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cadastro OS e cadastro de novas peças feito com sucesso." />
+    <MESSAGE value="Criação do arquivo fxml e classe de serviços." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação do arquivo fxml e classe de serviços." />
   </component>
 </project>
